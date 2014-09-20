@@ -47,11 +47,39 @@ img {
     text-decoration: none;
 }
 
-@media only screen and (min-width: 24em) {
+@media only screen and (min-width: 14em) {
     
     .title {
-        float: center;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 28em) {
+    
+    .nav {
+        text-align: center;
     }
     
-    
+    .nav li {
+        display: inline-block;
+        border: 0;
+    }   
 }
+    
+@media only screen and (min-width: 36em) {   
+    
+    .title {
+        text-align: left;
+    }
+    
+    .nav { 
+        float: left;
+        
+    } 
+    
+} 
+    
+    
+    
+    
+    
