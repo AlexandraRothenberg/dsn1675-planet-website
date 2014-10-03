@@ -70,13 +70,12 @@ img {
     
     .title {
         text-align: left;
-    }
-    
+    }   
     .nav { 
-        float: left;
-        
+        align-content: block;
+        text-align: left;
     } 
-    
+        
 } 
     
     
