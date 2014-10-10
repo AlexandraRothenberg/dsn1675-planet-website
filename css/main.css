@@ -30,54 +30,61 @@ img {
   width: 100%;
 }
 
+.masrhead {
+    overflow: hidden;
+    background-color: #ccc;
+}
+
 .title {
-    background-color: #DDD;
-    padding: 0;
     margin: 0;
+    text-align: center;
 }
 
 .nav {
-    background-color: #DDD;
-    margin: 0;
     padding: 0;
 }
 
-.nav a {
+.nav li {
+    display: block;
+}
+
+.nav a, 
+.nav a:link,
+.nav a:visited {
+    display: block;
     color: #0074D9;
     text-decoration: none;
 }
 
-@media only screen and (min-width: 14em) {
-    
-    .title {
-        text-align: center;
-    }
+.nav a:hover,
+.nav a:focus,
+.nav a:active {
+    background-color: #007AD9;
+    color: #fff;
 }
 
-@media only screen and (min-width: 28em) {
+@media only screen and (min-width: 20em) {
     
     .nav {
         text-align: center;
     }
     
     .nav li {
-        display: inline-block;
-        border: 0;
-    }   
+        display:inline-block;
+    }
 }
-    
-@media only screen and (min-width: 36em) {   
+
+@media only screen and (min-width: 40em) {
     
     .title {
-        text-align: left;
-    }   
-    .nav { 
-        align-content: block;
-        text-align: left;
-    } 
-        
-} 
+        float: left;
+    }
+    .nav {
+        float:left;
+    }
+}
     
+
     
     
     
