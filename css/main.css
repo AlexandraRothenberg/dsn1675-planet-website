@@ -30,12 +30,18 @@ img {
   width: 100%;
 }
 
-.masrhead {
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.masthead {
     overflow: hidden;
     background-color: #ccc;
 }
 
 .title {
+    display: block;
     margin: 0;
     text-align: center;
 }
