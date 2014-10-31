@@ -9,21 +9,26 @@
     <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
+    
+<ul class="skip-links">
+    <li><a href="#main">Skip to main content</a></li>
+    <li><a href="#nav">Skip to navigation</a></li>
+</ul>
    
-<header class="grid grid-middle section-dark masthead pad-t-1-2 pad-b-1-2">
+<header role="banner" class="grid grid-middle section-dark masthead pad-t-1-2 pad-b-1-2">
     <div class="unit gutter unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-3">
-        <h1 class="title peta push-0">Saturn</h1>
+        <strong class="title peta push-0">Saturn</strong>
     </div>
-    <nav class="unit gutter-1-2 unit-xs-1 unit-s-1 unit-m-2-3 unit-l-2-3">
+    <nav id="nav" role="navigation" class="unit gutter-1-2 unit-xs-1 unit-s-1 unit-m-2-3 unit-l-2-3">
         <ul class="nav giga push-0">
             <li><a class="island-1-2" href="index.html">Planet</a></li>
             <li><a class="island-1-2" href="moon.html">Moons</a></li>
-            <li><a class="island-1-2" herf="explore.html">Exploration</a></li>
+            <li><a class="island-1-2" href="explore.html">Exploration</a></li>
         </ul>  
     </nav>
 </header>
     
-<main>
+<main  role="main" id="main">
 <div class="section-mid intro peta island-1-2 push">
     <h1 class="push-0">Moons</h1>
 </div>
@@ -35,13 +40,13 @@
         <div class="unit push unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2">
           <img class="img-flex" src="images/titan.jpg" alt="Titan">
         </div>
-        <div class="unit push unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2">
+        <div class="moon-text unit push unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2">
           <h2 class="giga">Titan</h2>
           <p class="push-0">Titan, at 5,150 km diameter, is the second largest moon in the Solar System and Saturn's largest.Out of all the large moons, Titan is the only one with a dense (surface pressure of 1.5 atm), cold atmosphere, primarily made of nitrogen with a small fraction of methane.The dense atmosphere frequently produces bright white convective clouds, especially over the south pole region.</p>
         </div>
       </div>
      
-     <dl class="mega push-0">
+     <dl class="stats mega push-0">
         <dt class="milli">Diameter (km)</dt>
         <dd>5150&nbsp;km</dd>
         <dt class="milli">Mass (kg)</dt>
@@ -56,15 +61,15 @@
 
       <div class="grid">
         <div class="unit push unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2">
-          <img class="img-flex" src="images/rhea.jpg" alt="">
+          <img class="img-flex" src="images/rhea.jpg" alt="Rhea">
         </div>
-        <div class="unit push unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2">
+        <div class="moon-text unit push unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2">
           <h2 class="giga">Rhea</h2>
           <p class="push-0">Rhea is the second-largest of Saturn's moons. In 2005 Cassini detected a depletion of electrons in the plasma wake of Rhea, which forms when the co-rotating plasma of Saturn's magnetosphere is absorbed by the moon. The depletion was hypothesized to be caused by the presence of dust-sized particles concentrated in a few faint equatorial rings. Such a ring system would make Rhea the only moon in the Solar System known to have rings</p>
         </div>
       </div>
     
-      <dl class="mega push-0">
+      <dl class="stats mega push-0">
         <dt class="milli">Diameter (km)</dt>
         <dd>1527&nbsp;km</dd>
         <dt class="milli">Mass (kg)</dt>
@@ -75,6 +80,25 @@
         
      </div>
   </div>
+    
+     <div class="section-mid gutter pad-t">
+    <h2>Discovery<span class="discovery-title-extra"> Early Observations</span></h2>
+
+    <div class="grid">
+      <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-4 push">
+        <img class="img-flex" src="images/saturns-moons.jpg" alt="Saturn and the moons Iapetus, Titan, Dione, Hyperion, and Rhea viewed through a 12.5-inch telescope">
+      </div>
+      <div class="discovery-text unit unit-xs-1 unit-s-1 unit-m-2-3 unit-l-1-2">
+        <p>Before the advent of telescopic photography, eight moons of Saturn were discovered by direct observation using optical telescopes. Saturn's largest moon, Titan, was discovered in 1655 by Christiaan Huygens using a 57-millimeter (2.2 in) objective lens on a refracting telescope of his own design. Tethys, Dione, Rhea and Iapetus (the "Sidera Lodoicea") were discovered between 1671 and 1684 by Giovanni Domenico Cassini. Mimas and Enceladus were discovered in 1789 by William Herschel. Hyperion was discovered in 1848 by W.C. Bond, G.P. Bond and William Lassell.</p>
+
+<p>The use of long-exposure photographic plates made possible the discovery of additional moons. The first to be discovered in this manner, Phoebe, was found in 1899 by W.H. Pickering. In 1966 the tenth satellite of Saturn was discovered by Audouin Dollfus, when the rings were observed edge-on near an equinox. It was later named Janus. A few years later it was realized that all observations of 1966 could only be explained if another satellite had been present and that it had an orbit similar to that of Janus. This object is now known as Epimetheus, the eleventh moon of Saturn. It shares the same orbit with Janus—the only known example of co-orbitals in the Solar System. In 1980 three additional Saturnian moons were discovered from the ground and later confirmed by the Voyager probes. They are trojan moons of Dione (Helene) and Tethys (Telesto and Calypso).</p>
+      </div>
+      <div class="unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-4">
+        <p class="mega">The study of the outer planets has since been revolutionized by the use of unmanned space probes. The arrival of the Voyager spacecraft at Saturn in 1980–1981 resulted in the discovery of three additional moons—Atlas, Prometheus and Pandora, bringing the total to 17. In addition, Epimetheus was confirmed as distinct from Janus. In 1990, Pan was discovered in archival Voyager images.</p>
+      </div>
+    </div>
+  </div>
+    
 </main>
     
 <footer class="grid island-1-2 section-dark">
