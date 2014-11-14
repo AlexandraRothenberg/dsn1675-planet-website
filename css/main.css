@@ -45,6 +45,12 @@ body {
   padding: 0;
 }
 
+a,
+a:link,
+a:visited {
+  color: #0074D9;
+}
+
 a:hover,
 a:active {
     /*
@@ -61,7 +67,7 @@ a:focus {
 .skip-links {
     margin: 0;
     padding: 0;
-    list-style: none;
+    list-style-type: none;
 }
 
 .skip-links a {
@@ -72,6 +78,7 @@ a:focus {
     text-decoration: none;
     padding: 0.5em 0.75em;
     font-size: 1.125em;
+    font-weight: bold;
 }
 
 .skip-links a:focus {
@@ -89,6 +96,7 @@ a:focus {
 
 .title {
     text-align: center;
+    display: block;
 }
 
 .nav {
@@ -103,27 +111,30 @@ a:focus {
 .nav a:link,
 .nav a:visited {
     display: block;
-    color: #0074D9;
+    color: #fff;
     text-decoration: none;
 }
 
 .nav a:hover,
 .nav a:focus,
-.nav a:active {
-    background-color: #007AD9;
+.nav a:active,
+.nav .nav-current,
+.nav .nav-current:link,
+.nav .nav-current:visited {
+    background-color: #fcce1c;
     color: #fff;
 }
 
 .section-dark {
-  background-color: #ccc;
+  background-color: #f0a85f;
 }
 
 .section-mid {
-  background-color: #e2e2e2;
+  background-color: #ffe2c5;
 }
 
 .section {
-  background-color: #efefef;
+  background-color: #f2e6da;
 }
 
 .intro {
@@ -132,6 +143,97 @@ a:focus {
 
 .discovery-title-extra {
   display: none;
+}
+
+.table-outer {
+  overflow-x: auto;
+}
+
+.table-inner {
+  margin: 0 auto;
+  max-width: 60em;
+  min-width: 45em;
+}
+
+table {
+  width: 100%;
+
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 0.2rem;
+
+  text-align: left;
+}
+
+thead th {
+  background-color: #e2e2e2;
+  border-bottom: 1px solid #ccc;
+}
+
+tbody th,
+tbody td {
+  border-bottom: 1px solid #e2e2e2;
+}
+
+form {
+  margin: 0 auto;
+  max-width: 35em;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.03em;
+  vertical-align: middle;
+}
+
+input,
+textarea {
+  margin: 0;
+  padding: 0.4em;
+  vertical-align: middle;
+  width: 100%;
+
+  border: 1px solid #ccc;
+
+  font-size: 1rem;
+}
+
+fieldset {
+  padding: 0;
+
+  border: 0;
+}
+
+legend {
+  font-style: italic;
+}
+
+textarea {
+  height: 12em;
+}
+
+.radio {
+  white-space: nowrap;
+}
+
+.radio input {
+  width: auto;
+}
+
+.radio label {
+  display: inline-block;
+  margin-right: 0.75rem;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.align-right {
+  text-align: right;
 }
 
 .copyright {
